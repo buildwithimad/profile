@@ -1,0 +1,97 @@
+export const projects = [
+  {
+    id: 1,
+    slug: "najmai",
+    title: "NajmAI",
+    category: "AI SaaS Platform",
+    image: "/projects/najmai.png",
+    imageColor: "bg-purple-900",
+    description: "A high-performance AI landing page designed for conversion and speed.",
+    tech: ["Next.js", "Framer Motion", "Tailwind CSS", "OpenAI"],
+    link: "https://najmai.com",
+    github: "https://github.com/Codewithimaad/najmai",
+    details: "NajmAI is a comprehensive solution for AI startups looking to establish a premium web presence. It features complex scroll animations, glassmorphic UI elements, and a dark-themed interface optimized for modern SaaS aesthetics.",
+    gallery: [
+      { id: 0, color: "bg-purple-900", label: "Landing Page" },
+      { id: 1, color: "bg-purple-950", label: "Pricing Tiers" },
+      { id: 2, color: "bg-zinc-900", label: "User Dashboard" },
+      { id: 3, color: "bg-zinc-800", label: "Dark Mode UI" },
+    ]
+  },
+  {
+    id: 2,
+    slug: "vogue-vault",
+    title: "VogueVault",
+    category: "E-Commerce Experience",
+    image: "/projects/vogue.png",
+    imageColor: "bg-rose-950",
+    description: "A luxury fashion marketplace with seamless transitions and lightning-fast filtering.",
+    tech: ["React", "Node.js", "MongoDB", "Stripe API", "Redux"],
+    link: "https://vogue-vault.vercel.app",
+    github: "https://github.com/Codewithimaad/vogue-vault",
+    details: "VogueVault redefines online shopping with a 'headless' architecture. It handles thousands of SKUs with sub-second search times and features a custom-built checkout flow that reduced cart abandonment by 15%.",
+    gallery: [
+      { id: 0, color: "bg-rose-950", label: "Home Showcase" },
+      { id: 1, color: "bg-rose-900", label: "Product Grid" },
+      { id: 2, color: "bg-stone-900", label: "Shopping Cart" },
+      { id: 3, color: "bg-zinc-900", label: "Mobile Checkout" },
+    ]
+  },
+  {
+    id: 3,
+    slug: "faseelh",
+    title: "Faseelh",
+    category: "FinTech Dashboard",
+    image: "/projects/faseelh.png",
+    imageColor: "bg-zinc-800",
+    description: "An enterprise-grade financial tracking system for real estate investment firms.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Recharts"],
+    link: "https://faseelh.sa",
+    github: "https://github.com/Codewithimaad/faseelh-pro",
+    details: "Built specifically for the Riyadh investment market, Faseelh provides real-time data visualization of property yields. The application includes secure multi-role authentication and automated PDF report generation.",
+    gallery: [
+      { id: 0, color: "bg-zinc-800", label: "Main Dashboard" },
+      { id: 1, color: "bg-slate-800", label: "Analytics Charts" },
+      { id: 2, color: "bg-gray-800", label: "Property View" },
+      { id: 3, color: "bg-zinc-900", label: "PDF Generator UI" },
+    ]
+  },
+  {
+    id: 4,
+    slug: "damas-creative",
+    title: "Damas",
+    category: "Creative Agency Portfolio",
+    image: "/projects/damas.png",
+    imageColor: "bg-emerald-900",
+    description: "An award-winning editorial portfolio for a boutique design agency in Dubai.",
+    tech: ["React", "Three.js", "GSAP", "Tailwind CSS"],
+    link: "https://damascreative.com",
+    github: "#",
+    details: "Damas is a masterclass in motion design. Using Three.js for 3D webGL transitions and GSAP for scroll-triggered storytelling, this project focuses heavily on the 'wow' factor while maintaining accessibility.",
+    gallery: [
+      { id: 0, color: "bg-emerald-900", label: "WebGL Hero" },
+      { id: 1, color: "bg-emerald-950", label: "Work Grid" },
+      { id: 2, color: "bg-zinc-900", label: "About Section" },
+      { id: 3, color: "bg-stone-900", label: "Contact Overlay" },
+    ]
+  },
+  {
+    id: 5,
+    slug: "nexus-chat",
+    title: "Nexus Chat",
+    category: "Real-time Communication",
+    image: "/projects/nexus.png",
+    imageColor: "bg-blue-900",
+    description: "Secure, end-to-end encrypted messaging app with real-time translation features.",
+    tech: ["Socket.io", "Express", "React Native", "Firebase"],
+    link: "#",
+    github: "https://github.com/Codewithimaad/nexus-chat",
+    details: "Nexus Chat solves the language barrier in global teams. It integrates a real-time translation API into a WebSocket-based chat environment, allowing users to send messages in English and have them received in Arabic instantly.",
+    gallery: [
+      { id: 0, color: "bg-blue-900", label: "Login Screen" },
+      { id: 1, color: "bg-blue-950", label: "Chat Interface" },
+      { id: 2, color: "bg-slate-900", label: "Translation Tool" },
+      { id: 3, color: "bg-zinc-900", label: "Mobile View" },
+    ]
+  }
+];
