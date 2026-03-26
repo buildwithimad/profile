@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Sidebar() {
   return (
-    <div className="bg-white  rounded-[2rem] p-6 pb-10 flex flex-col items-center w-full relative ">
+    <div className="bg-white rounded-[2rem] p-6 pb-10 flex flex-col items-center w-full relative ">
       
       {/* IMAGE CONTAINER */}
       {/* Changed to a rich green gradient to match your new theme */}

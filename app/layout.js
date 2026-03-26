@@ -3,9 +3,9 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import ThemeProvider from "@/components/ThemeProvider";
 import Navbar from "@/components/Navbar";
-import ThemeToggle from "@/components/ThemeToggle";
 import BackToTop from "@/components/BackToTop";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -13,10 +13,6 @@ const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata = {
-  title: "Imad Khan | Portfolio",
-  description: "Full Stack Developer",
-};
 
 export default function RootLayout({ children }) {
   return (
@@ -27,8 +23,8 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         {/* All theme-dependent UI must be inside the ThemeProvider */}
+        <GoogleAnalytics />
         <ThemeProvider>
-          <ThemeToggle />
           <Navbar />
           <BackToTop />
           

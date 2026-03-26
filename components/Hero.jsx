@@ -25,7 +25,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-gray-300 dark:text-[#222222] text-[4.5rem] sm:text-[6.5rem] lg:text-[6rem] uppercase pointer-events-none transition-colors duration-300"
+          className="text-gray-300 dark:text-[#222222] text-[3.5rem] sm:text-[6.5rem] lg:text-[6rem] uppercase pointer-events-none transition-colors duration-300"
         >
           DEVELOPER
         </motion.h1>

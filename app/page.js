@@ -61,7 +61,8 @@ export default async function PortfolioPage() {
   const recentProjects = await getRecentProjects();
 
   return (
-    <main className="min-h-screen bg-[#f4f4f5] dark:bg-[#141414] transition-colors duration-500 flex flex-col lg:flex-row items-center lg:items-start justify-center p-6 md:py-24 md:px-48 gap-16 relative">
+   // Change your <main> tag to look exactly like this:
+<main className="min-h-screen bg-[#f4f4f5] dark:bg-[#141414] transition-colors duration-500 flex flex-col lg:flex-row items-center lg:items-start justify-center p-6 pt-28 md:py-24 md:px-48 gap-16 relative">
 
       {/* Sidebar Wrapper */}
       <div className="w-full max-w-sm lg:w-[360px] shrink-0 lg:sticky top-12 h-max ">

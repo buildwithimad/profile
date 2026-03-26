@@ -33,11 +33,11 @@ export default function Experience() {
       <AnimatedSection>
         <div className="flex flex-col font-black tracking-[-0.03em] leading-[0.85] mb-12">
           {/* Light: text-gray-900 | Dark: text-white */}
-          <h2 className="text-gray-900 dark:text-white text-[4.5rem] sm:text-[5.5rem] lg:text-[6.5rem] uppercase pointer-events-none transition-colors duration-300">
+          <h2 className="text-gray-900 dark:text-white text-[3rem] sm:text-[5.5rem] lg:text-[6.5rem] uppercase pointer-events-none transition-colors duration-300">
             5 YEARS OF
           </h2>
           {/* Light: text-gray-200 | Dark: text-[#222222] */}
-          <h2 className="text-gray-300 dark:text-[#222222] text-[4.5rem] sm:text-[5.5rem] lg:text-[6.5rem] uppercase pointer-events-none transition-colors duration-300">
+          <h2 className="text-gray-300 dark:text-[#222222] text-[3rem] sm:text-[5.5rem] lg:text-[6.5rem] uppercase pointer-events-none transition-colors duration-300">
             EXPERIENCE
           </h2>
         </div>
