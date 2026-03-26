@@ -5,6 +5,13 @@ export default function Sidebar() {
   return (
     <div className="bg-white rounded-[2rem] p-6 pb-10 flex flex-col items-center w-full relative ">
       
+       {/* Abstract Tech Lines Background */}
+          <svg className="absolute inset-0 w-full h-full opacity-30 pointer-events-none rounded-[1.5rem]" preserveAspectRatio="none" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+             <path d="M0,50 Q25,20 50,50 T100,50 V100 H0 Z" fill="#0f462b" />
+             <path d="M0,80 Q30,60 60,80 T100,70 V100 H0 Z" fill="#0a301e" />
+          </svg>
+
+
       {/* IMAGE CONTAINER */}
       {/* Changed to a rich green gradient to match your new theme */}
       <div className="w-[240px] bg-gradient-to-br from-[#155d3a] to-[#0d3b25] rounded-[2rem] h-[280px] relative flex items-center justify-center overflow-hidden mb-8 group cursor-pointer">
