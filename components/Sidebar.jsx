@@ -23,7 +23,7 @@ export default function Sidebar() {
         
         {/* NEXT.JS OPTIMIZED IMAGE */}
         <Image
-          src="/Portfolio.png"
+          src="/Imad.png"
           alt="Imad Khan - Full Stack Developer"
           fill
           priority
